@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">accesso</string>
+        <string name="first_button">email</string>
+        <string name="second_button">register</string>
+        <string name="email">email</string>
+        <string name="password">password</string>
+        <string name="phone">phone number</string>
+        <string name="email_error"> email not present</string>
+        <string name="password_error">password wrong</string>
+        <string name="login_success">login failed</string>
+        <string name="register_success">register success"</string>
+        <string name="number">number</string>
+        <string name="phone_error">phone number error</string>
+        <string name="welcome">Welcome</string>
+
+</resources>
+
