@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
            change.getRootView().setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
         }else{
             change.getRootView().setBackgroundColor(getResources().getColor(R.color.white));
-
+                //getResources prende dalle risorse il codice che ci serve
 
         }
     }

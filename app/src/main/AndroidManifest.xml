@@ -26,9 +26,20 @@
 
         </activity>
 
-        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".WelcomeActivity">
 
-    </application>
+            <intent-filter>
+                <action android:name = "android.intent.action.SEND"/>
+                <action android:name = "android.intent.action.SEND TO"/>
+                <category android:name = "android.intent.category.DEFAULT"/>
+                <data android:scheme = "mail"/>
+                <data android:scheme = "mailto"/>
+            </intent-filter>
+
+        </activity>
+
+
+</application>
 
 
 </manifest>

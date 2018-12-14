@@ -12,6 +12,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_email_black_18"
+            android:drawablePadding="5dp"
             android:id="@+id/email_et"
             android:inputType="textEmailAddress"
             android:hint="@string/email"/>
